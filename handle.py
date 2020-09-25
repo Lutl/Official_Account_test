@@ -26,5 +26,5 @@ class Handle(object):
             else:
                 return ""
         # TODO: python2.7的语法可能存在问题
-        except Exception, Argument:
+        except Exception as Argument:
             return Argument
